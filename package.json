@@ -1,0 +1,17 @@
+{
+  "name": "joe",
+  "version": "0.0.0",
+  "description": "stl slicing task",
+  "main": "index.js",
+  "scripts": {
+    "fast": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "got": "^12.0.1",
+    "mesh-slice-polygon": "git+https://github.com/tmpvar/mesh-slice-polygon.git",
+    "svg2img": "^0.9.1"
+  }
+}
